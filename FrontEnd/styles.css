@@ -1,0 +1,50 @@
+#Header  { 
+
+    text-align: center;
+
+
+} 
+
+#Container { 
+
+    padding: 20px;
+    text-align: center;
+    border: solid; 
+    width: fit-content;  
+    height: fit-content;
+    position: absolute;
+    top: 20%;
+    left: 30%; 
+    background-color:mediumspringgreen; 
+    border-radius: 10px;
+} 
+
+#searchBook { 
+   
+ display: grid;
+ padding: 10px;
+
+
+
+} 
+
+.Title { 
+
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}
+
+#Text,#Submit{ 
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px; 
+    padding: 10px; 
+    border-radius: 10px;
+} 
+
+#Submit { 
+   
+  
+   
+
+}
