@@ -10,28 +10,20 @@
 </head>
 <body> 
 
-<div id = "Header" > 
-   <h1 class="Title"> Book Finder </h1>
-    <h2 class="Title" >Find the books you wish to read!</h2>
-</div>
 
 <div id = "Container"> 
 
-    <form id="searchBook" > 
-
-    <h2 class="Title"><u> Search For Books</u></h2>
-
-    <label for="Title" class="Title" >Title of Book </label>
-    <input type="text" id="Text" placeholder="Enter Title Here"/>
-
-    <label for="Author" class="Title" > Author </label>
-    <input type="text" id = "Text" placeholder="Enter Author Name Here"  />
     
-    <label for="Year" class="Title" > Year </label>
-    <input type="text" id = "Text" placeholder="Enter Year Here"  />
-    <input type="submit" id = "Submit" value="Submit">
-</form>
+    <h2 class="Title"><u> Search For Books</u></h2>
+    <input type="text" id="titleInput" placeholder="Enter Title Here"/>
 
+    <button onclick="getBook()"id = "Submit" >Search</button> 
+
+    <div id = "output">  
+
+
+
+    </div>
 
 
 
